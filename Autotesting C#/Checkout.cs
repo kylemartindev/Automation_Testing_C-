@@ -31,7 +31,7 @@ namespace Autotesting_C_{
             public void saveorderreftoile(IWebDriver driver){
                 var strLogText = driver.FindElement(By.XPath("//*[@id='center_column']/div")).Text;
                 string test = strLogText.Remove(0, 222);
-                 string test2 = test.Remove(10);
+                 string test2 = test.Remove(9);
 // Create a writer and open the file:
         StreamWriter log;
 
